@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav{
+    padding: 1rem 2rem;
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+}
+li{
+    padding: 1rem 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+label{
+    padding-right: 3rem;
+}
+.container{
+ padding: 2rem;
+}
+
+.product-card{
+    padding: 2rem;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.listing{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+main{
+        padding: 2rem;
+}
+main h1{
+    padding-bottom: 2rem;
+}
+.cart{
+    display: flex;
+    gap: 2rem;
+}
+.listing{
+    flex: 3;
+} 
+.summary{
+    flex: 1;
+} 
+
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.search-input{
+    border: solid 2px lightgrey;
+    border-radius: 0.375rem;
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+}
+
+.search-btn{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+}
+
+.landing-page{
+    text-align: center;
+}
+.btn-container{
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.register-btn{
+    border-radius: 0.375rem;
+    padding: 1rem;
+    background: black;
+    color: white;
+}
+
+.register-btn a{
+    color: white;
+}
+
+
+.login-btn{
+    border-radius: 0.375rem;
+    padding: 1rem;
+    color: black;
+}
+
+.login-btn a{
+    color: black;
+}
+
+.account-container{
+    display: flex;
+    gap: 2rem;
+}
+.account-card{
+    flex: 2;
+} 
+.side-card{
+    flex: 1;
+} 
+
+.active{
+    background: black;
+}
+.active a{
+    color: white;
+}
+
+h1 a{
+    color: black;
+}
+
+li a{
+    color: black;
+}
+
+.profile-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logout-btn{
+    background: red;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.logout-btn a{
+    color: white;
+}
+    
+button{
+    padding: 1rem;
+    border-style: none;
+    cursor: pointer;
+}
+button a{
+    color: black;
+}
